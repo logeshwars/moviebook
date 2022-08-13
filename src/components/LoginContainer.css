@@ -1,0 +1,136 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+.loginBody {
+    width: 350px;
+    border-radius: 5px;
+    padding: 40px 30px;
+    backdrop-filter: blur(30px);
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+.loginHead {
+    padding: 30px 0px;
+    display: flex;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.loginHead h3:first-child {
+    padding-right: 20px;
+}
+
+.getLogin {
+    color: var(--signup);
+    font-size: 0.9rem;
+    margin: 20px 0px;
+}
+
+.loginHead h3:last-child {
+    padding-left: 20px;
+    border-left: 1px solid var(--signup);
+    color: var(--signup);
+    width: 100%;
+}
+
+.logoContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logoContainer img {
+    width: 40px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.logoContainer h3 {
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Titan One', cursive;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.inputField {
+    padding: 15px 30px;
+    border-radius: 3px;
+    background-color: rgba(39, 39, 40, 0.729);
+}
+
+.inputField input {
+    border: none;
+    width: 90%;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.inputField i {
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 20px;
+}
+
+.inputField input::placeholder {
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 13px;
+}
+
+.remeberMe {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.remeberMe label {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.loginBtn {
+    background-color: rgb(100, 52, 255);
+    width: max-content;
+    padding: 7px 40px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.loginBtn:hover {
+    background-color: rgb(86, 36, 248);
+    cursor: pointer;
+}
+
+.loginBtnCon {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.loginForget {
+    color: rgba(255, 255, 255, 0.662);
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 100%;
+}
